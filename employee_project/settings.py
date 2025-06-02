@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     # my installed apps below 
     'employees',
     'rest_framework',
+    'attendence',
 
 ]
 
