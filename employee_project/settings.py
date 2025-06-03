@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'employees',
     'rest_framework',
     'attendence',
+    'performance',
 
 ]
 
