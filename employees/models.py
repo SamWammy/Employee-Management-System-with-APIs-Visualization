@@ -12,7 +12,8 @@ class department(models.Model):
       # now make sure to make this readable 
       def __str__(self):
          return self.department
-      
+      "HR"
+
 
 # Create your models here.
 #python wrapper called the ORM
@@ -25,8 +26,8 @@ class department(models.Model):
 #email field can be unique 
 class employees(models.Model):
    name = models.CharField(max_length=100)
-   email = models.EmailField(unique=True)
-   phoneNumber= models.CharField(max_length=15)
+   email = models.EmailField(unique=True,max_length=100)
+   phoneNumber= models.CharField(max_length=30)
    address = models.TextField()
    dateOfJoining = models.DateField()
    department = models.ForeignKey(department,on_delete=models.CASCADE)
