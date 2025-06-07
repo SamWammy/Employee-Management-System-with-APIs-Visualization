@@ -11,14 +11,13 @@ Employee Management System with APIs & Visualization
 
 · Visualize employee analytics via charts (optional).
 
-· Document your work properly.
 
 ---
 
 
 ---
 
-Core Objectives:
+ Objectives:
 
 
 · Design Django Models (Employee, Department, Attendance, etc.).
